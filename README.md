@@ -13,10 +13,10 @@
 [DEMO](https://codepen.io/luochongfei/pen/eYgbWzp)
 
 ## 安装使用
-[查看](https://github.com/luochongfei/goods-attr/examples/index.html)
+[查看](https://luochongfei.github.io/goods-attr/examples/index.html)
 
 ## 参数文档
-[查看](https://github.com/luochongfei/goods-attr/examples/config.html)
+[查看](https://luochongfei.github.io/goods-attr/examples/config.html)
 
 ## License
 MIT
