@@ -1,0 +1,28 @@
+name: release
+on: push
+
+jobs:
+  release:
+    name: 生成release
+    runs-on: ubuntu-latest
+    steps:
+    - name: 检索文件
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: 设置Node版本
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12
+
+    - name: 安装依赖
+      run: npm install
+
+    - name: release
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        NPM_USERNAME: ${{ secrets.NPM_USERNAME }}
+        NPM_PASSWORD: ${{ secrets.NPM_PASSWORD }}
+        NPM_EMAIL: ${{ secrets.NPM_EMAIL }}
+      run: npx semantic-release

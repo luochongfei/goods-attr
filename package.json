@@ -1,0 +1,45 @@
+{
+    "name": "goods-attr",
+    "description": "一款极易上手的 商品多规格属性选择器 组件",
+    "keywords": [
+        "goods",
+        "attr",
+        "goods-attr",
+        "GoodsAttr",
+        "商品多规格属性",
+        "商品规格属性",
+        "product attribute"
+    ],
+    "version": "1.0.0",
+    "main": "dist/goods-attr.umd.min.js",
+    "jsdelivr": "dist/goods-attr.umd.min.js",
+    "unpkg": "dist/goods-attr.umd.min.js",
+    "scripts": {
+        "build": "rollup -c"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/luochongfei/goods-attr.git"
+    },
+    "author": "luochongfei <luochongfei@126.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/luochongfei/goods-attr/issues"
+    },
+    "homepage": "https://luochongfei.github.io/goods-attr/examples/index.html",
+    "devDependencies": {
+        "@commitlint/cli": "^12.1.1",
+        "@commitlint/config-conventional": "^12.1.1",
+        "@semantic-release/changelog": "^5.0.1",
+        "@semantic-release/git": "^9.0.0",
+        "husky": "^6.0.0",
+        "rollup": "^2.45.2",
+        "rollup-plugin-terser": "^7.0.2",
+        "semantic-release": "^17.4.2"
+    },
+    "config": {
+        "commitizen": {
+            "path": "cz-conventional-changelog"
+        }
+    }
+}
