@@ -10,7 +10,7 @@
         "商品规格属性",
         "product attribute"
     ],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "dist/goods-attr.esm.min.js",
     "jsdelivr": "dist/goods-attr.umd.min.js",
     "unpkg": "dist/goods-attr.umd.min.js",
