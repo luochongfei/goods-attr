@@ -11,7 +11,7 @@
         "product attribute"
     ],
     "version": "1.0.0",
-    "main": "dist/goods-attr.umd.min.js",
+    "main": "dist/goods-attr.esm.min.js",
     "jsdelivr": "dist/goods-attr.umd.min.js",
     "unpkg": "dist/goods-attr.umd.min.js",
     "scripts": {
